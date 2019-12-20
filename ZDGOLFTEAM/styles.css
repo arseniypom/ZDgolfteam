@@ -1,0 +1,373 @@
+body {
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  /* font-weight: bold; */
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+p, a, button {
+  font-family: 'Roboto', serif;
+  font-size: 17px;
+}
+
+.afterline_green:after {
+  content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 1.5rem auto;
+
+	background-color: #71a95a
+}
+
+.afterline_drkgreen:after {
+  content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 1.5rem auto;
+
+	background-color: #007944;
+}
+
+.green_heading {
+  font-weight: bold;
+  color: #007944;
+}
+
+.h2_with_margin {
+  margin-bottom: 2rem;
+}
+
+.border_bottom_dark_green {
+  border-bottom: 3px solid #007944;
+}
+
+.container-fluid {
+  padding: 3% 11%;
+}
+
+.bordered_white {
+  border: 2px solid #fff;
+}
+
+.colored_section {
+  background-color: #71a95a;
+  color: #fff;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+/* TITLE */
+.navImage {
+  height: auto;
+  width: 50px;
+}
+
+.main_header {
+  margin: 0 auto 1rem;
+}
+
+.img-fluid {
+  height: auto;
+  width: 65%;
+}
+/*
+.title_text {
+  margin: 1rem 10%;
+} */
+
+.title_h4 {
+  margin: 1rem 10%;
+}
+
+.title_par {
+  margin: 0 15%;
+}
+
+/* COACHES */
+
+.blockquote-footer {
+  font-size: .85rem
+}
+
+.coach_image {
+  height: 22rem;
+}
+
+.coach1_image {
+  background: url(images/coach1.png) no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.coach2_image {
+  background: url(images/coach2.png) no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.coach3_image {
+  background: url(images/coach3.jpg) no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.coach4_image {
+  background: url(images/coach4.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.card-subtitle:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 1.5rem auto;
+
+	background-color: #71a95a;
+}
+
+#coaches ul {
+  padding: 0 0 0 .8rem;
+}
+
+.card_text {
+  text-align: left;
+  font-family: 'Roboto', serif;
+  font-size: .9rem;
+  line-height: 1.4;
+
+  list-style-type: circle;
+}
+
+/* OUR BASES  */
+
+
+#ourBases .card {
+  color: #000;
+}
+
+.base_pic {
+  width: 28rem;
+  height: 21rem;
+  margin: 2rem 2rem;
+  float: left;
+
+  border: 2px solid #007944;
+}
+
+.base_text {
+  text-align: left;
+  margin: 3rem auto auto;
+}
+
+.base1 {
+background: url(images/base1.jpg) no-repeat;
+background-position: center;
+background-size: cover
+}
+
+.base2 {
+background: url(images/base2.jpg) no-repeat;
+background-position: center;
+background-size: cover
+}
+
+.base3 {
+background: url(images/base3.jpg) no-repeat;
+background-position: center;
+background-size: cover
+}
+
+.base4 {
+background: url(images/base4.jpg) no-repeat;
+background-position: center;
+background-size: cover
+}
+
+.base5 {
+background: url(images/base5.jpg) no-repeat;
+background-position: center;
+background-size: cover
+}
+
+/* CAMPS */
+.camps_paragraphs {
+  margin: 1rem 16% 2rem;
+}
+
+/* EL PLANTIO CAMP */
+#elEplantioCamp .card {
+  height: 22rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
+}
+.elCard1 {
+  background: url(images/ElPlantio1.png);
+}
+
+.elCard2 {
+  background: url(images/ElPlantio2.png);
+}
+
+.elCard3 {
+  background: url(images/ElPlantio3.jpg);
+}
+
+/* LINKS INTERNATIONAL CAMP */
+#linksInternationalCamp .card {
+  height: 22rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center
+}
+
+.linksCard1 {
+  background: url(images/Links1.jpg);
+}
+
+.linksCard2 {
+  background: url(images/Links2.png);
+}
+
+.linksCard3 {
+  background: url(images/Links3.png);
+}
+
+/* BENEFITS */
+.benefits_par {
+  margin-top: 1rem
+}
+
+.list-group-item.active {
+  background-color: #71a95a;
+  border-color: #007944;
+}
+
+#benefits .benefit_photo {
+
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.benefit1 {
+  height: 33rem;
+  width: 28rem;
+  background: url(images/benefit1.jpg)
+}
+
+.benefit2 {
+  height: 30rem;
+  width: 45rem;
+  background: url(images/benefit2.jpg)
+}
+
+.benefit3 {
+  height: 30rem;
+  width: 40rem;
+  background: url(images/benefit3.jpg)
+}
+
+.benefit4 {
+  height: 37rem;
+  width: 30rem;
+  background: url(images/benefit4.png)
+}
+
+.benefit5 {
+  height: 30rem;
+  width: 30rem;
+  background: url(images/benefit5.jpg)
+}
+
+
+
+/* GALLERY */
+.gallery {
+  padding: 2rem 2rem;
+  text-align: left;
+}
+
+.gallery_text {
+  margin: 10% auto 1rem;
+}
+
+
+.fa-chevron-left {
+  font-size: 2rem;
+}
+
+.fa-chevron-right {
+  font-size: 2rem;
+}
+
+.galleryPhoto1 {
+  height: 30rem;
+  background: url(images/gallery1.jpg)no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.galleryPhoto2 {
+  height: 30rem;
+  background: url(images/gallery2.jpg)no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+.galleryPhoto3 {
+  height: 30rem;
+  background: url(images/gallery3.jpg)no-repeat;
+  background-position: center;
+  background-size: cover
+}
+
+/* IG POSTS */
+
+/* ENROLL FORM */
+.container-enroll {
+  padding: 3% 30%;
+}
+
+.left_aligned {
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: bold;
+
+  margin: 0 0 .5rem .5rem;
+}
+
+#enrollForm input {
+  font-family: 'Roboto', serif;
+  font-size: .9rem;
+}
+
+
+.form-control-lg {
+  height: 3.1rem;
+}
+
+.enroll_button {
+  margin-top: 1.5rem;
+  border: 1px solid #000;
+}
+
+/* FOOTER */
+.footer {
+  height: 6rem;
+  background-color: #a2792f;
+}
